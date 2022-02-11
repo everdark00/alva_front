@@ -1,0 +1,357 @@
+.bucket_block{
+    height: 1740px;
+    width: 1440px;
+}
+
+.bucket_body{
+    position: relative;
+    height: 793px;
+    width: 1200px;
+    margin-left: 120px;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.your_goods_bucket{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 20px;
+
+    color: #000000;
+}
+
+.bucket_header{
+    height: 28px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.bucket_header_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.prod_name_bucket{
+    margin-left: 77px;
+    margin-top: 0px;
+}
+
+.prod_price_bucket{
+    margin-left: 640px;
+    margin-top: 0px;
+}
+
+.prod_num_bucket{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.prod_bucket_element{
+    position: relative;
+    height: 90px;
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 12px;
+
+    background: #FFFFFF;
+    border: 1px solid #555454;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.num_btn{
+    height: 30px;
+    width: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.prod_bucket_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.prod_bucket_text_title{
+    margin-left: 37px;
+    margin-top: 29.5px;
+
+}
+
+.prod_bucket_text_price{
+    position: absolute;
+    left: 918px;
+    margin-top: 29.5px;
+}
+
+.prod_bucket_text_number{
+    margin-top: 0px;
+}
+
+.number_element{
+    position: absolute;
+    height: 30px;
+    width: 85px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1015px;
+    margin-top: 29px;
+    justify-content: space-around;
+
+}
+
+
+
+.end_bucket_bar{
+    position: absolute;
+    width: 1120px;
+    height: 1px;
+    top: 645px;
+    left: 40px;
+
+    background-color:#494949;
+}
+
+.bucket_footer{
+    position: absolute;
+    width: 1120px;
+    height: 120px;
+    margin-top: 645px;
+    margin-left: 40px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bucket_arrows{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bucket_stats_block{
+    width: 300px;
+    height: 90px;
+}
+
+.bucket_stats{
+    width: 300px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text_stats{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 10px;
+
+    color: #000000;
+}
+
+.page_button_bucket{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+
+    background: #000000;
+    border: 1px solid #868686;
+    box-sizing: border-box;
+}
+
+.page_button_bucket:active{
+    background-color: #bdbdbd;
+}
+
+.page_button_bucket_text{
+    font-size: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+
+    color:#ffffff;
+}
+
+.text_up{
+    margin-top: 6px;
+}
+
+.text_down{
+    margin-top: 9px;
+}
+
+.bucket_footer_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 10px;
+
+    color: #000000;
+}
+
+.order_body{
+    position: relative;
+    height: 760px;
+    width: 1200px;
+    margin-left: 120px;
+    margin-top: 40px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.order_form{
+    height: 760px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form_block{
+    height: 120px;
+    width: 400px;  
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.choice_block{
+    height: 200px;
+    width: 400px;  
+    display: flex;
+    flex-direction: column;
+    margin-left: 254px;
+    margin-top: 60px;
+}
+
+.choice_row{
+    height: 30px;
+    width: 400px;  
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+    margin-top: 13px;
+}
+
+.order_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    
+    color: #000000;
+}
+
+.choice_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 0px;
+    margin-left: 43px;
+}
+
+.input_form{
+    height: 51px;
+    width: 431px;  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.circle_form{
+    height: 15px;
+    width: 15px;  
+    margin-top: 8px;
+}
+
+.circle_form:active{
+    background-color: #000000;
+}
+
+.submit_order{
+    width: 431px;
+    height: 77px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 93px;
+    margin-left: 254px;
+
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.bad_order_tag{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+
+    color: #ff0000;
+}
+
+.bad_order{
+    position:absolute;
+    margin-top: 542px;
+    margin-left: 730px;
+    height: 18px;
+    width: 431px;
+}

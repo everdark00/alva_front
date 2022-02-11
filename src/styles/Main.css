@@ -1,0 +1,284 @@
+.main_block{
+    width: 1440px;
+    height: 2600px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.cats{
+    position: absolute;
+    width: 204px;
+    height: 800px;
+    left: 19px;
+    top: 197px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C1C1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cat_header{
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 20px;
+    top: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.circle{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    position: absolute;
+    left: 19px;
+    width: 8px;
+    height: 8px;
+    top: 19px;
+}
+
+
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 21px;
+    padding: 0px 0px;
+    position: absolute;
+    left: 36px;
+}
+
+.cat_button{
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 202px;
+    height: 51px;
+    left: 0px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.cat_button:active{
+    background-color: #bdbdbd;
+}
+
+.cat_pos_one{
+    top: 97px;
+}
+
+.cat_pos_two{
+    top: 148px;
+}
+
+.cat_pos_three{
+    top: 199px;
+}
+
+.cat_pos_four{
+    top: 250px;
+}
+
+.cat_pos_five{
+    top: 301px;
+}
+
+.cat_pos_six{
+    top: 352px;
+}
+
+.cat_pos_seven{
+    top: 403px;
+}
+
+.cat_pos_eigth{
+    top: 454px;
+}
+
+.cat_pos_nine{
+    top: 505px;
+}
+
+.cat_pos_ten{
+    top: 556px;
+}
+
+.cat_pos_eleven{
+    top: 607px;
+}
+
+.all_title{
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 20px;
+    top: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.all_button_pos{
+    top: 679px;
+}
+
+
+.prod_img{
+    object-fit: cover;
+    height: 350px;
+    width: 350px;
+}
+
+.goods {
+    position: absolute;
+    width: 1075px;
+    height: 2413px;
+    left: 243px;
+    top: 197px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:flex-start;
+
+    background: #FFFFFF;
+    border: 1px solid #C5C1C1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.prod_tmp {
+    margin-left: 88px;
+    margin-right: 88px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.prod_ttl{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    color: #000000;
+}
+
+.prod_price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.prod_sale{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    display: flex;
+    align-items: center;
+
+    color: #ff0000;
+}
+
+.prod_new{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.page_buttons{
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    left: 481px;
+    top: 2640px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.page_button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.page_button:active{
+    background-color: #bdbdbd;
+}
+
+.pb_title{
+    margin: 0px;
+
+    font-family: Metrophobic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    align-items: center;
+
+    color: #000000;
+}
+
+.page_button_act{
+    background: #000000;
+}
+
+.pb_title_act{
+    color: #FFFFFF;
+}

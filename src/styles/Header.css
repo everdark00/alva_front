@@ -1,0 +1,119 @@
+.header_block{
+    width: 1440px;
+    height: 150px;
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    align-content: center;
+
+    background: #000000;
+}
+.logo_shop{
+    width: 500px;
+    object-fit: cover;
+    height: 150px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,100|Metrophobic:400");
+
+.big_cat{
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    text-decoration: none;
+
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.big_cat:active{
+    color: #bdbdbd;
+}
+
+.first{
+    position: absolute;
+    width: 157px;
+    height: 28px;
+    left: 580px;
+    top: 62px;
+}
+
+.second{
+    position: absolute;
+    width: 167px;
+    height: 26px;
+    left: 785px;
+    top: 63px;
+}
+
+.third{
+    position: absolute;
+    width: 234px;
+    height: 28px;
+    left: 1000px;
+    top: 62px;
+}
+
+.bucket_button{
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 42.59px;
+    height: 50px;
+    left: 1367px;
+    top: 27px;
+
+    background: #000000;
+}
+
+.bucket_img{
+    width: 42.59px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.num_product{
+    position: absolute;
+    left: 1400px;
+    top: 26px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #ff0000;
+}
+
+.profile_button{
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 53.12px;
+    height: 50px;
+
+    background: #000000;
+}
+
+.profile_img{
+    width: 53.12px;
+    height: 50px;
+    object-fit: cover;
+}

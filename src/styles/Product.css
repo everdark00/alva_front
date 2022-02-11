@@ -1,0 +1,150 @@
+.product_background{
+    position: absolute;
+    width: 1198px;
+    height: 793px;
+    left: 130px;
+    top: 197px;
+    display: flex;
+    flex-direction: row;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.product_block{
+    width: 1440px;
+    height: 1000px;
+}
+
+.photos{
+    width: 590px;
+    height: 713px;
+    margin-left: 50px;
+    margin-top: 43px;
+}
+
+.description{
+    width: 508px;
+    height: 713px;
+    margin-top: 43px;
+}
+
+.name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    margin-top: 0;
+
+    color: #000000;
+}
+
+.name_block{
+    width: 485px;
+    height: 130px;
+    background: #FFFFFF;
+    margin-left: 20px;
+}
+
+.price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: right;
+}
+
+.new_mark{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+
+    color: #474747;
+}
+
+.sale_mark{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+
+    color: #ff0000;
+}
+
+.empty_mark{
+    width: 500px;
+    height: 22.5px;
+}
+
+.desc_block{
+    width: 485px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+    margin-top: 30px
+}
+
+.desc{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: normal;
+    text-align:justify;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.add_button{
+    height: 80px;
+    width: 488px;
+    border: none;
+    outline: none;  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 61px;
+
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.add_button:active{
+    color: #bdbdbd;
+    height: 78px;
+    width: 486px;
+    margin-left: 21px;
+    margin-top: 62px;
+}
+
+.product_added_tag{
+    position: absolute;
+    top: 620px;
+    left: 800px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+
+    color: #868686;
+}
